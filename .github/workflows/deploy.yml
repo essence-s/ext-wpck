@@ -4,6 +4,8 @@ on:
     branches:
       - main
 
+  workflow_dispatch:
+
 # Permite que este trabajo clone el repositorio y cree un despliegue de página
 permissions:
   contents: read
