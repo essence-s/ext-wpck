@@ -8,7 +8,7 @@ on:
 
 # Permite que este trabajo clone el repositorio y cree un despliegue de página
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
